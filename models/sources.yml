@@ -1,0 +1,15 @@
+version: 2
+sources:
+  - name: raw_taxi
+    description: Raw taxi trips
+    database: main     
+    schema: default      
+    tables:
+      - name: sample_taxis_nyc
+        columns:
+          - name: tpep_pickup_datetime
+          - name: tpep_dropoff_datetime
+          - name: trip_distance
+          - name: fare_amount
+          - name: pickup_zip
+          - name: dropoff_zip

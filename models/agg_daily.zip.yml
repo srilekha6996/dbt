@@ -1,0 +1,6 @@
+version: 2
+models:
+  - name: fct_trips_inc
+    description: Incremental trips table for faster downstream queries.
+  - name: agg_daily_zip
+    description: Daily trips and fare KPIs by pickup ZIP to monitor trends.
