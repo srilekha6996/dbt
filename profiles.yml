@@ -1,0 +1,11 @@
+dbt_cuj_demo:
+  outputs:
+    dev:
+      catalog: srilekha
+      host: e2-dogfood.staging.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/dd43ee29fedd958d
+      schema: dbt_test
+      threads: 1
+      token: dapi09ef3a4f9b91346ae00f291647f9480e
+      type: databricks
+  target: dev
